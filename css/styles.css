@@ -1,4 +1,4 @@
-#java, #ruby, #cplusplus {
+#java, #ruby, #cplusplus, #csharp, #python {
   display: none;
 }
 body {
@@ -16,6 +16,16 @@ body {
 }
 #ruby {
   border: 2px solid red;
+  padding: 4px;
+  background-color: lightgrey;
+}
+#csharp {
+  border: 2px solid orange;
+  padding: 4px;
+  background-color: lightgrey;
+}
+#python {
+  border: 2px solid purple;
   padding: 4px;
   background-color: lightgrey;
 }
