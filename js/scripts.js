@@ -8,40 +8,41 @@ $(document).ready(function() {
     const web = $("#web").val();
     const broad = $("#broad").val();
     const animal = $("input#animal").val();
+    $('.inputname').text(name);
     if (gaming === "yes" && mobile === "yes") {
-      $('#java').show();
-      $('#cplusplus').hide();
-      $('#ruby').hide();
-      $('#csharp').hide();
-      $('#python').hide();
+      $('#java').fadeIn();
+      $('#cplusplus').fadeOut();
+      $('#ruby').fadeOut();
+      $('#csharp').fadeOut();
+      $('#python').fadeOut();
     } 
     else if (gaming === "yes") {
-      $('#cplusplus').show();
-      $('#java').hide();
-      $('#ruby').hide();
-      $('#csharp').hide();
-      $('#python').hide();
+      $('#cplusplus').fadeIn();
+      $('#java').fadeOut();
+      $('#ruby').fadeOut();
+      $('#csharp').fadeOut();
+      $('#python').fadeOut();
     }
     else if (web === "yes" && color === "yes") {
-      $('#ruby').show();
-      $('#cplusplus').hide();
-      $('#java').hide();
-      $('#csharp').hide();
-      $('#python').hide();
+      $('#ruby').fadeIn();
+      $('#cplusplus').fadeOut();
+      $('#java').fadeOut();
+      $('#csharp').fadeOut();
+      $('#python').fadeOut();
     }
     else if (web === "yes") {
-      $('#csharp').show();
-      $('#cplusplus').hide();
-      $('#java').hide();
-      $('#ruby').hide();
-      $('#python').hide();
+      $('#csharp').fadeIn();
+      $('#cplusplus').fadeOut();
+      $('#java').fadeOut();
+      $('#ruby').fadeOut();
+      $('#python').fadeOut();
     }
     else if (broad === "yes") {
-      $('#python').show();
-      $('#cplusplus').hide();
-      $('#java').hide();
-      $('#ruby').hide();
-      $('#csharp').hide();
+      $('#python').fadeIn();
+      $('#cplusplus').fadeOut();
+      $('#java').fadeOut();
+      $('#ruby').fadeOut();
+      $('#csharp').fadeOut();
     }
   });
 });
