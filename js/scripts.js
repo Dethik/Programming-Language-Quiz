@@ -8,7 +8,7 @@ $(document).ready(function() {
     const web = $("#web").val();
     const broad = $("#broad").val();
     const animal = $("input#animal").val();
-    $('.inputname').text(name);
+    $('.nameInput').text(name);
     if (gaming === "yes" && mobile === "yes") {
       $('#java').fadeIn();
       $('#cplusplus').fadeOut();
