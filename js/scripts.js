@@ -43,6 +43,15 @@ $(document).ready(function() {
       $('#java').fadeOut();
       $('#ruby').fadeOut();
       $('#csharp').fadeOut();
+      $('#javascript').fadeOut();
+    }
+    else if (animal === "Dog") {
+      $('#javascript').fadeIn();
+      $('#cplusplus').fadeOut();
+      $('#java').fadeOut();
+      $('#ruby').fadeOut();
+      $('#csharp').fadeOut();
+      $('#python').fadeOut();
     }
   });
 });

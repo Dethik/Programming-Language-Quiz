@@ -2,7 +2,7 @@ h1 {
   text-align: center;
   margin: 12px;
 }
-#java, #ruby, #cplusplus, #csharp, #python {
+#java, #ruby, #cplusplus, #csharp, #python, #javascript {
   display: none;
 }
 body {
