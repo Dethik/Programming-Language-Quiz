@@ -15,6 +15,7 @@ $(document).ready(function() {
       $('#ruby').fadeOut();
       $('#csharp').fadeOut();
       $('#python').fadeOut();
+      $('#javascript').fadeOut();
     } 
     else if (gaming === "yes") {
       $('#cplusplus').fadeIn();
@@ -22,6 +23,7 @@ $(document).ready(function() {
       $('#ruby').fadeOut();
       $('#csharp').fadeOut();
       $('#python').fadeOut();
+      $('#javascript').fadeOut();
     }
     else if (web === "yes" && color === "yes") {
       $('#ruby').fadeIn();
@@ -29,6 +31,7 @@ $(document).ready(function() {
       $('#java').fadeOut();
       $('#csharp').fadeOut();
       $('#python').fadeOut();
+      $('#javascript').fadeOut();
     }
     else if (web === "yes") {
       $('#csharp').fadeIn();
@@ -36,6 +39,7 @@ $(document).ready(function() {
       $('#java').fadeOut();
       $('#ruby').fadeOut();
       $('#python').fadeOut();
+      $('#javascript').fadeOut();
     }
     else if (broad === "yes") {
       $('#python').fadeIn();
