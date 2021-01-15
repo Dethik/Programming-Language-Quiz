@@ -1,3 +1,21 @@
 #java, #ruby, #cplusplus {
   display: none;
 }
+body {
+  background-color: rgba(101, 205, 209, 0.281);
+}
+#cplusplus {
+  border: 2px solid green;
+  padding: 4px;
+  background-color: lightgrey;
+}
+#java {
+  border: 2px solid blue;
+  padding: 4px;
+  background-color: lightgrey;
+}
+#ruby {
+  border: 2px solid red;
+  padding: 4px;
+  background-color: lightgrey;
+}
