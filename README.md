@@ -33,5 +33,3 @@ This project is to demonstrate my skills and knowledge with the content we have 
 ## Contact Information
 
 Email: Thorgrim88@gmail.com
-
-Here is a link to my [gh-pages](https://dethik.github.io/Programming-Language-Quiz/)

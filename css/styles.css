@@ -37,3 +37,10 @@ body {
   text-align: center;
   margin: 20px;
 }
+.spoiler { 
+  color: black; 
+  background-color:black;
+}
+.spoiler:hover {
+  color: white
+}
